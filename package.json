@@ -1,0 +1,25 @@
+{
+  "name": "actividadevaluada",
+  "version": "1.0.0",
+  "description": "CRUD y transacciones usando una base de datos simulando una aplicación bancaria simple",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.5"
+  }
+}
